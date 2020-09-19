@@ -1,0 +1,60 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: gray
+}
+.p_header{
+    display: flex;
+    justify-content: right;
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    height: 25px;
+}
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .section_intro{
+    border-top:lightgrey 2px solid;
+    border-bottom:lightgray 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  p{
+      text-align: center;
+  }
+
+  .our_services{
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .h5_services{
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+    color: white;
+    width: 10%;
+    border-radius: 5px;
+    
+  }
+
+  .container_services{
+      display: flex;
+  }
+
