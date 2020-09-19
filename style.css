@@ -1,4 +1,9 @@
 
+body{
+    margin-right: 3%;
+    margin-left: 3%;
+
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -9,7 +14,6 @@
     display: flex;
     justify-content: right;
 }
-
 
 .links{
     display: flex;
@@ -26,35 +30,92 @@ a {
     color: white;
   }
 
-
   .section_intro{
     border-top:lightgrey 2px solid;
     border-bottom:lightgray 2px solid;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+ .intro{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
 
-  p{
-      text-align: center;
-  }
+ .section_1{
+    border-bottom:lightgray 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+ }
 
   .our_services{
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+    background-color:tomato;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .services_items{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.section_2{
+    border-bottom:lightgray 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our_players{
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+    background-color:tomato;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .players_items{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+  .section_3{
+    border-bottom:lightgray 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .latest_work {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color:tomato;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .latest_work_images{
+      padding: 10px 20px 10px 20px;
       display: flex;
       justify-content: space-around;
       
   }
 
-  .h5_services{
-    display: flex;
-    justify-content: center;
-    background-color: tomato;
-    color: white;
-    width: 10%;
-    border-radius: 5px;
-    
+  .imagen_100{
+      width: 300px;
+      height: 160px;
   }
-
-  .container_services{
-      display: flex;
-  }
-
+ 
+ 
