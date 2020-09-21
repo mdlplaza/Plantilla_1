@@ -1,18 +1,17 @@
 
 body{
-    margin-right: 3%;
-    margin-left: 3%;
-
+    margin:0;
+    font-family: sans-serif;
+  
+}
+p{
+    color:grey;
 }
 .header{
     display: flex;
     justify-content: space-between;
     margin: 20px;
     color: gray
-}
-.p_header{
-    display: flex;
-    justify-content: right;
 }
 
 .links{
@@ -21,9 +20,10 @@ body{
     background-color: tomato;
     color: white;
     border-radius: 5px;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
     height: 25px;
 }
+
 a {
     margin: 20px;
     text-decoration: none;
@@ -39,7 +39,7 @@ a {
  .intro{
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     align-items: center;
  }
 
  .section_1{
@@ -52,12 +52,16 @@ a {
 
   .our_services{
     margin: auto;
-    display: flex;
-    justify-content:center ;
+   
+  }
+  
+  .our_services h6{
     background-color:tomato;
     color: white;
     border-radius: 5px;
+    padding: 10px 20px 10px 20px;
   }
+  
 
   .services_items{
     padding: 10px 20px 10px 20px;
@@ -77,9 +81,14 @@ a {
     margin: auto;
     display: flex;
     justify-content:center ;
+   
+  }
+
+  .our_players h6{
     background-color:tomato;
     color: white;
     border-radius: 5px;
+    padding: 10px 20px 10px 20px;
   }
 
   .players_items{
@@ -101,9 +110,13 @@ a {
     margin: auto;
     display: flex;
     justify-content: center;
+  }
+
+  .latest_work h6{
     background-color:tomato;
     color: white;
     border-radius: 5px;
+    padding: 10px 20px 10px 20px;
   }
 
   .latest_work_images{
@@ -118,4 +131,28 @@ a {
       height: 160px;
   }
  
+ footer{
+     background-color:lightgrey;
+ }
+
+ .footer_container{
+     display: flex;
+     justify-content: space-between;
+     ;
+ }
+ .copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid white;
+    font-size: smaller;
+ }
+.blog_items{
+  display: flex;
+}
+
+ .blog{
+   padding-top: 10px;
+ }
+
+
  
